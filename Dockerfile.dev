@@ -1,0 +1,15 @@
+FROM node:18-alpine
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm ci
+COPY docs ./docs
+EXPOSE 8080
+CMD ["npm", "run", "dev"]
+
+
+
+# npm run dev
+# 运行 npm run build 生成 docs/.vuepress/dist
+# docker build -t dgbooks .
+# docker run -d --name dgbooks -p 8090:80 dgbooks
+# - - 打开浏览器访问 http://ip:8080
