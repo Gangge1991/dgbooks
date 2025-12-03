@@ -1,3 +1,4 @@
 node_modules
 docs/.vuepress/config.js
 docs/.vuepress/dist
+.DS_Store
