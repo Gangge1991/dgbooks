@@ -1,62 +1,42 @@
 ---
-home: true
-title: Home
-# heroImage: ![说明](oss/pics/image.png)
-actions:
-  - text: AI修仙资源导航
-    link: AI资源/001AI学习资源.md
-    type: primary
-
-  # - text: Introduction
-  #   link: https://vuejs.press/guide/introduction.html
-  #   type: secondary
-
-features:
-  - title: 
-    details:
-  - title: 
-    details:
-  - title: 
-    details:
-  - title: 01- Python基础
-    details: 学习Python语言，掌握核心语法
-  - title: 02-机器学习理论
-    details: 南瓜书，《机器学习公式详解》 谢文睿,秦州. 人民邮电出版社
-  - title: 03-机器学习实践
-    details: 周志华西瓜书代码实战
-  - title: 04-深度学习理论
-    details: 李宏毅机器学习笔记
-  - title: 05-深度学习实践
-    details: 深入浅出PyTorch
-  - title: 06-自然语言处理基础
-    details: 基于transformers的自然语言处理入门
-  - title: 07-大语言模型（LLM）基础&AIGC基础
-    details: 大语言模型（LLM）原理与实践
-  - title: 08-ChatGPT原理与实践
-    details: ChatGPT原理与实践
-  - title: 09-面向开发者的Prompt工程
-    details: 面向开发者的Prompt工程
-  - title: 10-Prompt从入门到应用
-    details: Prompt从入门到应用
-  - title: 11-Prompt手册
-    details: Prompt手册
-  - title: 12-零基础入门NLP - 新闻文本分类
-    details: 零基础入门NLP - 新闻文本分类
-  - title: 13-强化学习基础
-    details: 强化学习教程
-  - title: 14-Pandas基础
-    details: Pandas数据处理与分析
-  - title: 15-SQL基础
-    details: 奇妙的SQL
-  - title: 16-大数据开发基础
-    details: 妙趣横生大数据
-  - title: 17-数据竞赛Baseline & Topline分享
-    details: 其他：数据竞赛Baseline & Topline分享
-  # - title: 18-
-  #   details:
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+permalink: /
 ---
 
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
+# 欢迎来到AI修仙传，踏上你的AI修仙之路！
 
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-p
+这是一个完全免费开放的AI知识共享平台，汇总整合目前热门的AI信息，包括AI学习教程、产品介绍、使用指南、技巧分享、应用场景、AI 变现、行业资讯、教程资源等一系列内容。涉及的国内外各种大模型：chatGPT、Deepseek、Deepseek-r1、QWEN、GROK 等等
+
+
+
+
+> 作者：[程序员刚哥](AIBook/开发者介绍.md)
+>
+
+
+
+## AI修仙指南
+AI 时代，程序员要学什么才能不被淘汰呢？这个硬核指南给你答案。带你快速了解 AI 核心概念、AI 常用工具、AI 编程技巧、AI + 编程技术，走在时代的前沿。
+道友，请踏上你的AI修仙之路吧！
+### 炼气期
+#### [Python学习打牢语言根基](AI资源/001Python.md)
+
+### 筑基期
+#### [机器学习基础理论](AI资源/002机器学习理论.md)
+#### [实战机器学习code](AI资源/003机器学习实践.md)
+
+### 结丹期
+#### [深度学习基础理论](AI资源/004深度学习理论.md)
+#### [实战深度学习code](AI资源/005深度学习实践.md)
+
+### 元婴期
+#### [NLP基础入门](AI资源/006自然语言处理基础.md)
+#### [大模型理论基础](AI资源/007大语言模型原理与基础.md)
+#### [大模型ChatGPT实战](AI资源/008ChatGPT原理与实践.md)
+
+### 化神期
+#### [各种AI法宝剑诀融会贯通](AI资源/AI项目实践/)
+
+## [编程学习服务](/产品服务)
+
+本人提供全程Python、Java、大数据开发、AI Agent等指导服务，有意者加微信chovydad
+
